@@ -1,0 +1,66 @@
+/* src/styles/Ordenador.css */
+
+.ordenador-container {
+  max-width: 500px;
+  margin: 2rem auto;
+  padding: 1.5rem;
+  background-color: #f4f4f4;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+.ordenador-title {
+  text-align: center;
+  font-size: 1.8rem;
+  margin-bottom: 1rem;
+  color: #333;
+}
+
+.ordenador-inputs {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+  margin-bottom: 1rem;
+}
+
+.ordenador-inputs input {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.ordenador-select {
+  padding: 0.6rem;
+  font-size: 1rem;
+  border-radius: 6px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+}
+
+.ordenador-button {
+  padding: 0.8rem;
+  font-size: 1rem;
+  background-color: #0078d4;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ordenador-button:hover {
+  background-color: #005fa3;
+}
+
+.ordenador-result {
+  margin-top: 1rem;
+  padding: 0.8rem;
+  background-color: #e6f7ff;
+  border: 1px solid #b3e0ff;
+  border-radius: 6px;
+  color: #005fa3;
+  font-weight: bold;
+  text-align: center;
+}
