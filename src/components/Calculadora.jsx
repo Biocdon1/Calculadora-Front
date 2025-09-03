@@ -11,7 +11,7 @@ function Calculadora() {
     e.preventDefault();
     const operacion = e.target.value;
 
-    fetch('http://localhost:3500/v1/calculadora/calcular', {
+    fetch('https://calculadora-end.vercel.app/v1/calculadora/calcular', {
       method: 'POST',
       headers: { "Content-Type": "application/json" },
       body: JSON.stringify({

@@ -25,7 +25,7 @@ function Ordenador() {
     };
 
     try {
-      const res = await fetch('http://localhost:3500/v1/calculadora/ordenar', {
+      const res = await fetch('https://calculadora-end.vercel.app/v1/calculadora/ordenar', {
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(payload)
